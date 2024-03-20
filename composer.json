@@ -1,0 +1,23 @@
+{
+    "name": "visuellverstehen/statamic-hyphenator",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Visuellverstehen\\Hyphenator\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Hyphenator",
+            "description": "Adds modifier to hyphenate strings"
+        },
+        "laravel": {
+            "providers": [
+                "Visuellverstehen\\Hyphenator\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "vanderlee/syllable": "^1.7"
+    }
+}
