@@ -1,23 +1,27 @@
 # Hyphenator
 
-> Hyphenator is a Statamic addon that does something pretty neat.
+A Statamic addon that provides a `hyphenate` modifier to add hyphens to text. Uses [phpSyllable](https://github.com/vanderlee/phpSyllable/) for the hyphenate logic, and currently only supports German and English.
 
-## Features
+## Installation
 
-This addon does:
+The addon currently can only installed from the repository, so you need to add the following line to your `require` list in `composer.json`:
 
-- This
-- And this
-- And even this
-
-## How to Install
-
-You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
-
-``` bash
-composer require visuellverstehen/hyphenator
+```json
+"visuellverstehen/statamic-hyphenator": "dev-main"
 ```
 
-## How to Use
+And the following snippet to the `repositories` part of `composer.json`:
 
-Here's where you can explain how to use this wonderful addon.
+```json
+{
+  "type": "vcs",
+  "url": "https://github.com/visuellverstehen/statamic-hyphenator"
+}
+```
+
+## More about us
+
+- [www.visuellverstehen.de](https://visuellverstehen.de)
+
+## License
+The MIT license (MIT). Please take a look at the [license file](LICENSE) for more information.
