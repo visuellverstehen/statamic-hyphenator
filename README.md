@@ -4,7 +4,7 @@ A Statamic addon that provides a `hyphenate` modifier to add hyphens to text. Us
 
 ## Installation
 
-The addon currently can only installed from the repository, so you need to add the following line to your `require` list in `composer.json`:
+The addon currently can only be installed from the repository, so you need to add the following line to your `require` list in `composer.json`:
 
 ```json
 "visuellverstehen/statamic-hyphenator": "dev-main"
